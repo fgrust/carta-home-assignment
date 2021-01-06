@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+  display: grid;
+
+  .title {
+    font-weight: 600;
+    font-size: 48px;
+
+    &:hover {
+      color: purple;
+      transition: all 1s;
+    }
+  }
+
+  .content {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .autoprefix {
+    font-variant: small-caps;
+  }
+}
