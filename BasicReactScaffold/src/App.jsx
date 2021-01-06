@@ -6,6 +6,7 @@ const App = ({ title, content }) => {
   let res = false;
 
   try {
+    // polyfill your favorite JS features
     res = "TestTestTest".includes("Test");
   } catch (e) {
     res = false;
